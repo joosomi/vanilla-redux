@@ -1,3 +1,10 @@
+import React from "react";
+import ReactDOM from "react-dom";
+import App from "./components/App";
+
+ReactDOM.render(<App></App>, document.getElementById("root"));
+
+/*
 import { createStore } from "redux";
 const form = document.querySelector("form");
 const input = document.querySelector("input");
@@ -85,3 +92,4 @@ form.addEventListener("submit", onSubmit);
 //   li.innerText = toDo;
 //   ul.appendChild(li);
 // };
+*/
